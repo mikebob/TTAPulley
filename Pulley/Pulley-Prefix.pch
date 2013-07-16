@@ -1,0 +1,18 @@
+//
+// Prefix header for all source files of the 'Progress' target in the 'Progress' project
+//
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#define CGPOINT_TO_STR(pt) [NSString stringWithFormat:@"(x - %f, y - %f)", pt.x, pt.y]
+
+#if DEBUG
+#define DLog(fmt, ...) NSLog((@"(%@) %s [%d] " fmt), NSStringFromClass([self class]), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define DLog(...)
+#endif

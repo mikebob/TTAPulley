@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00405ECE1C0348DA928C2DC3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7179CC8C5DD54408BF5B48BB /* libPods.a */; };
+		AF0C350F177EFDC5006D9809 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0C350E177EFDC5006D9809 /* UIKit.framework */; };
+		AF0C3511177EFDC5006D9809 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0C3510177EFDC5006D9809 /* Foundation.framework */; };
+		AF0C3519177EFDC5006D9809 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF0C3517177EFDC5006D9809 /* InfoPlist.strings */; };
+		AF0C351B177EFDC5006D9809 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C351A177EFDC5006D9809 /* main.m */; };
+		AF0C351F177EFDC5006D9809 /* TTAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C351E177EFDC5006D9809 /* TTAAppDelegate.m */; };
+		AF0C3521177EFDC5006D9809 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0C3520177EFDC5006D9809 /* Default.png */; };
+		AF0C3523177EFDC5006D9809 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0C3522177EFDC5006D9809 /* Default@2x.png */; };
+		AF0C3525177EFDC5006D9809 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0C3524177EFDC5006D9809 /* Default-568h@2x.png */; };
+		AF0C3528177EFDC5006D9809 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0C3526177EFDC5006D9809 /* MainStoryboard.storyboard */; };
+		AF0C353E177EFDC5006D9809 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0C353D177EFDC5006D9809 /* SenTestingKit.framework */; };
+		AF0C353F177EFDC5006D9809 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0C350E177EFDC5006D9809 /* UIKit.framework */; };
+		AF0C3540177EFDC5006D9809 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0C3510177EFDC5006D9809 /* Foundation.framework */; };
+		AF0C3548177EFDC5006D9809 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF0C3546177EFDC5006D9809 /* InfoPlist.strings */; };
+		AF0C354B177EFDC5006D9809 /* ProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C354A177EFDC5006D9809 /* ProgressTests.m */; };
+		AF0C356D177F3C78006D9809 /* TTAFilePersistantStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C356C177F3C78006D9809 /* TTAFilePersistantStore.m */; };
+		AF0C356E177F3C78006D9809 /* TTAFilePersistantStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C356C177F3C78006D9809 /* TTAFilePersistantStore.m */; };
+		AF0C3573177F4BBF006D9809 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0C3572177F4BBF006D9809 /* EventKit.framework */; };
+		AF1532CD178A3A3900690F43 /* gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF1532CB178A3A3900690F43 /* gear@2x.png */; };
+		AF1532CE178A3A3900690F43 /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF1532CC178A3A3900690F43 /* checkmark@2x.png */; };
+		AF6247DD178BAC8E005F3050 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6247DC178BAC8E005F3050 /* Icon-114.png */; };
+		AF6247E7178BB58B005F3050 /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6247E6178BB58B005F3050 /* delete@2x.png */; };
+		AF6247EA178BBD6C005F3050 /* TTAKeyboardHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6247E9178BBD6B005F3050 /* TTAKeyboardHandler.m */; };
+		AF98D6BD1780B871009FC5E4 /* TTAPGToDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF98D6BC1780B871009FC5E4 /* TTAPGToDoViewController.m */; };
+		AF9C2A6917866FA200AA331B /* TTAPGReminder.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9C2A6817866FA200AA331B /* TTAPGReminder.m */; };
+		AF9C2A6A17866FA200AA331B /* TTAPGReminder.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9C2A6817866FA200AA331B /* TTAPGReminder.m */; };
+		AFA03DFB179380ED00F4266A /* TTAProgressItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA03DF9179380ED00F4266A /* TTAProgressItemTableViewCell.m */; };
+		AFA03DFC179380ED00F4266A /* TTAProgressItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFA03DFA179380ED00F4266A /* TTAProgressItemTableViewCell.xib */; };
+		AFEC73BE1788F531009A3A23 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFEC73BD1788F531009A3A23 /* QuartzCore.framework */; };
+		AFEC73C31788F65D009A3A23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFEC73C21788F65D009A3A23 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF0C3541177EFDC5006D9809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF0C3503177EFDC5006D9809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF0C350A177EFDC5006D9809;
+			remoteInfo = Progress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7179CC8C5DD54408BF5B48BB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0C350B177EFDC5006D9809 /* Pulley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pulley.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0C350E177EFDC5006D9809 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF0C3510177EFDC5006D9809 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF0C3516177EFDC5006D9809 /* Pulley-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pulley-Info.plist"; sourceTree = "<group>"; };
+		AF0C3518177EFDC5006D9809 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF0C351A177EFDC5006D9809 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF0C351C177EFDC5006D9809 /* Pulley-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pulley-Prefix.pch"; sourceTree = "<group>"; };
+		AF0C351D177EFDC5006D9809 /* TTAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAAppDelegate.h; sourceTree = "<group>"; };
+		AF0C351E177EFDC5006D9809 /* TTAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAAppDelegate.m; sourceTree = "<group>"; };
+		AF0C3520177EFDC5006D9809 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AF0C3522177EFDC5006D9809 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AF0C3524177EFDC5006D9809 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AF0C3527177EFDC5006D9809 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AF0C353C177EFDC5006D9809 /* PulleyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulleyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0C353D177EFDC5006D9809 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AF0C3545177EFDC5006D9809 /* PulleyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PulleyTests-Info.plist"; sourceTree = "<group>"; };
+		AF0C3547177EFDC5006D9809 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF0C3549177EFDC5006D9809 /* ProgressTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressTests.h; sourceTree = "<group>"; };
+		AF0C354A177EFDC5006D9809 /* ProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressTests.m; sourceTree = "<group>"; };
+		AF0C356B177F3C78006D9809 /* TTAFilePersistantStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAFilePersistantStore.h; sourceTree = "<group>"; };
+		AF0C356C177F3C78006D9809 /* TTAFilePersistantStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAFilePersistantStore.m; sourceTree = "<group>"; };
+		AF0C3572177F4BBF006D9809 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		AF1532CB178A3A3900690F43 /* gear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear@2x.png"; sourceTree = "<group>"; };
+		AF1532CC178A3A3900690F43 /* checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@2x.png"; sourceTree = "<group>"; };
+		AF6247DC178BAC8E005F3050 /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-114.png"; sourceTree = "<group>"; };
+		AF6247E6178BB58B005F3050 /* delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete@2x.png"; sourceTree = "<group>"; };
+		AF6247E8178BBD6B005F3050 /* TTAKeyboardHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAKeyboardHandler.h; sourceTree = "<group>"; };
+		AF6247E9178BBD6B005F3050 /* TTAKeyboardHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAKeyboardHandler.m; sourceTree = "<group>"; };
+		AF98D6BB1780B871009FC5E4 /* TTAPGToDoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAPGToDoViewController.h; sourceTree = "<group>"; };
+		AF98D6BC1780B871009FC5E4 /* TTAPGToDoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAPGToDoViewController.m; sourceTree = "<group>"; };
+		AF9C2A6717866FA200AA331B /* TTAPGReminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAPGReminder.h; sourceTree = "<group>"; };
+		AF9C2A6817866FA200AA331B /* TTAPGReminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAPGReminder.m; sourceTree = "<group>"; };
+		AFA03DF8179380ED00F4266A /* TTAProgressItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAProgressItemTableViewCell.h; sourceTree = "<group>"; };
+		AFA03DF9179380ED00F4266A /* TTAProgressItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAProgressItemTableViewCell.m; sourceTree = "<group>"; };
+		AFA03DFA179380ED00F4266A /* TTAProgressItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTAProgressItemTableViewCell.xib; sourceTree = "<group>"; };
+		AFEC73BD1788F531009A3A23 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AFEC73C21788F65D009A3A23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D712C495063848E39CC65979 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF0C3508177EFDC5006D9809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEC73C31788F65D009A3A23 /* CoreGraphics.framework in Frameworks */,
+				AF0C3511177EFDC5006D9809 /* Foundation.framework in Frameworks */,
+				AFEC73BE1788F531009A3A23 /* QuartzCore.framework in Frameworks */,
+				AF0C3573177F4BBF006D9809 /* EventKit.framework in Frameworks */,
+				AF0C350F177EFDC5006D9809 /* UIKit.framework in Frameworks */,
+				00405ECE1C0348DA928C2DC3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0C3538177EFDC5006D9809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0C353E177EFDC5006D9809 /* SenTestingKit.framework in Frameworks */,
+				AF0C353F177EFDC5006D9809 /* UIKit.framework in Frameworks */,
+				AF0C3540177EFDC5006D9809 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF0C3502177EFDC5006D9809 = {
+			isa = PBXGroup;
+			children = (
+				AF6247DC178BAC8E005F3050 /* Icon-114.png */,
+				AF0C3514177EFDC5006D9809 /* Pulley */,
+				AF0C3543177EFDC5006D9809 /* PulleyTests */,
+				AF0C350D177EFDC5006D9809 /* Frameworks */,
+				AF0C350C177EFDC5006D9809 /* Products */,
+				D712C495063848E39CC65979 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		AF0C350C177EFDC5006D9809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C350B177EFDC5006D9809 /* Pulley.app */,
+				AF0C353C177EFDC5006D9809 /* PulleyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF0C350D177EFDC5006D9809 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF9C2A6417864F9500AA331B /* Vendor */,
+				AFEC73C21788F65D009A3A23 /* CoreGraphics.framework */,
+				AFEC73BD1788F531009A3A23 /* QuartzCore.framework */,
+				AF0C3572177F4BBF006D9809 /* EventKit.framework */,
+				AF0C350E177EFDC5006D9809 /* UIKit.framework */,
+				AF0C3510177EFDC5006D9809 /* Foundation.framework */,
+				AF0C353D177EFDC5006D9809 /* SenTestingKit.framework */,
+				7179CC8C5DD54408BF5B48BB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF0C3514177EFDC5006D9809 /* Pulley */ = {
+			isa = PBXGroup;
+			children = (
+				AF9C2A5F1785924B00AA331B /* Assets */,
+				AF0C3559177F3AE1006D9809 /* Controllers */,
+				AF0C356A177F3C68006D9809 /* Data */,
+				AF0C355A177F3AE1006D9809 /* Models */,
+				AF0C3515177EFDC5006D9809 /* Supporting Files */,
+				AFA03DF7179380ED00F4266A /* Views */,
+				AF0C351D177EFDC5006D9809 /* TTAAppDelegate.h */,
+				AF0C351E177EFDC5006D9809 /* TTAAppDelegate.m */,
+				AF0C3526177EFDC5006D9809 /* MainStoryboard.storyboard */,
+				AF6247E8178BBD6B005F3050 /* TTAKeyboardHandler.h */,
+				AF6247E9178BBD6B005F3050 /* TTAKeyboardHandler.m */,
+			);
+			path = Pulley;
+			sourceTree = "<group>";
+		};
+		AF0C3515177EFDC5006D9809 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C3516177EFDC5006D9809 /* Pulley-Info.plist */,
+				AF0C3517177EFDC5006D9809 /* InfoPlist.strings */,
+				AF0C351A177EFDC5006D9809 /* main.m */,
+				AF0C351C177EFDC5006D9809 /* Pulley-Prefix.pch */,
+				AF0C3520177EFDC5006D9809 /* Default.png */,
+				AF0C3522177EFDC5006D9809 /* Default@2x.png */,
+				AF0C3524177EFDC5006D9809 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF0C3543177EFDC5006D9809 /* PulleyTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C3549177EFDC5006D9809 /* ProgressTests.h */,
+				AF0C354A177EFDC5006D9809 /* ProgressTests.m */,
+				AF0C3544177EFDC5006D9809 /* Supporting Files */,
+			);
+			path = PulleyTests;
+			sourceTree = "<group>";
+		};
+		AF0C3544177EFDC5006D9809 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C3545177EFDC5006D9809 /* PulleyTests-Info.plist */,
+				AF0C3546177EFDC5006D9809 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF0C3559177F3AE1006D9809 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF98D6BB1780B871009FC5E4 /* TTAPGToDoViewController.h */,
+				AF98D6BC1780B871009FC5E4 /* TTAPGToDoViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AF0C355A177F3AE1006D9809 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF9C2A6717866FA200AA331B /* TTAPGReminder.h */,
+				AF9C2A6817866FA200AA331B /* TTAPGReminder.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF0C356A177F3C68006D9809 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C356B177F3C78006D9809 /* TTAFilePersistantStore.h */,
+				AF0C356C177F3C78006D9809 /* TTAFilePersistantStore.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AF9C2A5F1785924B00AA331B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AF1532CB178A3A3900690F43 /* gear@2x.png */,
+				AF1532CC178A3A3900690F43 /* checkmark@2x.png */,
+				AF6247E6178BB58B005F3050 /* delete@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		AF9C2A6417864F9500AA331B /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		AFA03DF7179380ED00F4266A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFA03DF8179380ED00F4266A /* TTAProgressItemTableViewCell.h */,
+				AFA03DF9179380ED00F4266A /* TTAProgressItemTableViewCell.m */,
+				AFA03DFA179380ED00F4266A /* TTAProgressItemTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF0C350A177EFDC5006D9809 /* Pulley */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0C354E177EFDC5006D9809 /* Build configuration list for PBXNativeTarget "Pulley" */;
+			buildPhases = (
+				F57D4C761E3C432E9957FB7A /* Check Pods Manifest.lock */,
+				AF0C3507177EFDC5006D9809 /* Sources */,
+				AF0C3508177EFDC5006D9809 /* Frameworks */,
+				AF0C3509177EFDC5006D9809 /* Resources */,
+				4B0E8D2D1C3A46B0BE39BFB1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pulley;
+			productName = Progress;
+			productReference = AF0C350B177EFDC5006D9809 /* Pulley.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF0C353B177EFDC5006D9809 /* PulleyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0C3551177EFDC5006D9809 /* Build configuration list for PBXNativeTarget "PulleyTests" */;
+			buildPhases = (
+				AF0C3537177EFDC5006D9809 /* Sources */,
+				AF0C3538177EFDC5006D9809 /* Frameworks */,
+				AF0C3539177EFDC5006D9809 /* Resources */,
+				AF0C353A177EFDC5006D9809 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF0C3542177EFDC5006D9809 /* PBXTargetDependency */,
+			);
+			name = PulleyTests;
+			productName = ProgressTests;
+			productReference = AF0C353C177EFDC5006D9809 /* PulleyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF0C3503177EFDC5006D9809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TTAPG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mike Bobiney";
+			};
+			buildConfigurationList = AF0C3506177EFDC5006D9809 /* Build configuration list for PBXProject "Pulley" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF0C3502177EFDC5006D9809;
+			productRefGroup = AF0C350C177EFDC5006D9809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF0C350A177EFDC5006D9809 /* Pulley */,
+				AF0C353B177EFDC5006D9809 /* PulleyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF0C3509177EFDC5006D9809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0C3519177EFDC5006D9809 /* InfoPlist.strings in Resources */,
+				AF0C3521177EFDC5006D9809 /* Default.png in Resources */,
+				AF0C3523177EFDC5006D9809 /* Default@2x.png in Resources */,
+				AF0C3525177EFDC5006D9809 /* Default-568h@2x.png in Resources */,
+				AF0C3528177EFDC5006D9809 /* MainStoryboard.storyboard in Resources */,
+				AF1532CD178A3A3900690F43 /* gear@2x.png in Resources */,
+				AF1532CE178A3A3900690F43 /* checkmark@2x.png in Resources */,
+				AF6247DD178BAC8E005F3050 /* Icon-114.png in Resources */,
+				AF6247E7178BB58B005F3050 /* delete@2x.png in Resources */,
+				AFA03DFC179380ED00F4266A /* TTAProgressItemTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0C3539177EFDC5006D9809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0C3548177EFDC5006D9809 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B0E8D2D1C3A46B0BE39BFB1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF0C353A177EFDC5006D9809 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		F57D4C761E3C432E9957FB7A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF0C3507177EFDC5006D9809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0C351B177EFDC5006D9809 /* main.m in Sources */,
+				AF0C351F177EFDC5006D9809 /* TTAAppDelegate.m in Sources */,
+				AF0C356D177F3C78006D9809 /* TTAFilePersistantStore.m in Sources */,
+				AF98D6BD1780B871009FC5E4 /* TTAPGToDoViewController.m in Sources */,
+				AF9C2A6917866FA200AA331B /* TTAPGReminder.m in Sources */,
+				AF6247EA178BBD6C005F3050 /* TTAKeyboardHandler.m in Sources */,
+				AFA03DFB179380ED00F4266A /* TTAProgressItemTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0C3537177EFDC5006D9809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0C354B177EFDC5006D9809 /* ProgressTests.m in Sources */,
+				AF0C356E177F3C78006D9809 /* TTAFilePersistantStore.m in Sources */,
+				AF9C2A6A17866FA200AA331B /* TTAPGReminder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF0C3542177EFDC5006D9809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF0C350A177EFDC5006D9809 /* Pulley */;
+			targetProxy = AF0C3541177EFDC5006D9809 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF0C3517177EFDC5006D9809 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF0C3518177EFDC5006D9809 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AF0C3526177EFDC5006D9809 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF0C3527177EFDC5006D9809 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		AF0C3546177EFDC5006D9809 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF0C3547177EFDC5006D9809 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF0C354C177EFDC5006D9809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF0C354D177EFDC5006D9809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF0C354F177EFDC5006D9809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D712C495063848E39CC65979 /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Vendor\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pulley/Pulley-Prefix.pch";
+				INFOPLIST_FILE = "Pulley/Pulley-Info.plist";
+				PRODUCT_NAME = Pulley;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AF0C3550177EFDC5006D9809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D712C495063848E39CC65979 /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Vendor\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pulley/Pulley-Prefix.pch";
+				INFOPLIST_FILE = "Pulley/Pulley-Info.plist";
+				PRODUCT_NAME = Pulley;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AF0C3552177EFDC5006D9809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Progress.app/Progress";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Progress/Progress-Prefix.pch";
+				INFOPLIST_FILE = "ProgressTests/PulleyTests-Info.plist";
+				PRODUCT_NAME = PulleyTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AF0C3553177EFDC5006D9809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Progress.app/Progress";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Progress/Progress-Prefix.pch";
+				INFOPLIST_FILE = "ProgressTests/PulleyTests-Info.plist";
+				PRODUCT_NAME = PulleyTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF0C3506177EFDC5006D9809 /* Build configuration list for PBXProject "Pulley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0C354C177EFDC5006D9809 /* Debug */,
+				AF0C354D177EFDC5006D9809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0C354E177EFDC5006D9809 /* Build configuration list for PBXNativeTarget "Pulley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0C354F177EFDC5006D9809 /* Debug */,
+				AF0C3550177EFDC5006D9809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0C3551177EFDC5006D9809 /* Build configuration list for PBXNativeTarget "PulleyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0C3552177EFDC5006D9809 /* Debug */,
+				AF0C3553177EFDC5006D9809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF0C3503177EFDC5006D9809 /* Project object */;
+}
