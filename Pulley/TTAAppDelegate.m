@@ -9,11 +9,13 @@
 #import "TTAAppDelegate.h"
 #import "TTAFilePersistantStore.h"
 
+NSString *const kLaunchedBefore = @"hasBeenLaunchedBefore";
+
 @implementation TTAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    if([[NSUserDefaults standardUserDefaults] boolForKey:@"hasBeenLaunchedBefore"] == NO) {
+    if([[NSUserDefaults standardUserDefaults] boolForKey:kLaunchedBefore] == NO) {
         [self seedDataStore]; // sample data
     }
     return YES;
@@ -26,6 +28,9 @@
       [[TTAPGReminder alloc] initWithTitle:@"Pick up dry cleaning"],
       [[TTAPGReminder alloc] initWithTitle:@"Walk the dog"],
      ]];
+    
+    [[NSUserDefaults standardUserDefaults] setBool:YES forKey:kLaunchedBefore];
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
